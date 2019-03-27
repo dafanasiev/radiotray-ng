@@ -50,6 +50,7 @@ install(DIRECTORY "${PROJECT_SOURCE_DIR}/data/hicolor/256x256/apps/"            
 install(DIRECTORY "${PROJECT_SOURCE_DIR}/data/hicolor/24x24/apps/"                DESTINATION "/usr/share/icons/hicolor/24x24/apps"        FILES_MATCHING PATTERN "*.png")
 install(DIRECTORY "${PROJECT_SOURCE_DIR}/data/ubuntu-mono-dark/apps/24/"          DESTINATION "/usr/share/icons/ubuntu-mono-dark/apps/24"  FILES_MATCHING PATTERN "*.svg")
 install(DIRECTORY "${PROJECT_SOURCE_DIR}/data/ubuntu-mono-light/apps/24/"         DESTINATION "/usr/share/icons/ubuntu-mono-light/apps/24" FILES_MATCHING PATTERN "*.svg")
+install(DIRECTORY "${PROJECT_SOURCE_DIR}/data/ubuntu-mono-light/apps/24/"         DESTINATION "/usr/share/icons/Yaru/apps/24"              FILES_MATCHING PATTERN "*.svg")
 install(FILES     "${PROJECT_SOURCE_DIR}/data/about/radiotray-ng.png"             DESTINATION ${DESTINATION_DIR})
 install(FILES     "${PROJECT_SOURCE_DIR}/data/bookmarks.json"                     DESTINATION ${DESTINATION_DIR})
 install(PROGRAMS  "${PROJECT_SOURCE_DIR}/src/radiotray-ng/extras/scripts/rt2rtng" DESTINATION "/usr/bin/")
